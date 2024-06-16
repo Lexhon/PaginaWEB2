@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+  background-color: #24303c; /* Blanco */
+  color: white; /* Gris oscuro */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Cabecera */
+header {
+  background-color: #4D9DB4; /* Azul suave */
+  color: #FFFFFF; /* Blanco */
+  padding: 1rem;
+}
+
+/* Navegación */
+nav {
+  background-color: #97D8C4; /* Verde agua */
+}
+
+nav a {
+  color: #FFFFFF; /* Blanco */
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+/* Contenido principal */
+main {
+  padding: 2rem;
+}
+
+/* Pie de página */
+footer {
+  background-color: #F4B860; /* Naranja suave */
+  color: #FFFFFF; /* Blanco */
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Estilo de botones */
+button {
+  background-color: #4D9DB4; /* Azul suave */
+  color: #FFFFFF; /* Blanco */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #97D8C4; /* Verde agua */
+}
+
+/* Botón secundario (opcional) */
+button.secundario {
+  background-color: #F4B860; /* Naranja suave */
+}
+
+button.secundario:hover {
+  background-color: #97D8C4; /* Verde agua */
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #4D9DB4; /* Azul suave */
+}
+
+button[type="submit"] {
+    width: calc(100% - 20px);
+    margin-top:10px;
+    float: right;
+    
+}
+h1 {
+    text-align:center; 
+}

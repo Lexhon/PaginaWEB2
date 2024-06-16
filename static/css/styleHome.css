@@ -1,0 +1,33 @@
+img {
+    border-style: ridge;
+    border-color: grey;
+    width: 900px;
+    height: 500px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'calibri';
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'calibri';
+}
+div{
+    text-align: center;
+}
+ body {
+    background: #24303c;
+}
+button {
+    font-size: 20px;
+    background: #1f53c5;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    font-family: 'calibri';
+}
